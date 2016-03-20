@@ -1,10 +1,27 @@
+body {
+    background-image: url(../image/photography.png);
+}
+
+a { 
+    text-decoration: none;
+    color: #006F8E;
+}
+a:hover { 
+    text-decoration: underline;
+}
+
 .top {
     margin-top: 25%;
     margin-bottom: 5%;
     padding-bottom: 13%;
-    border-bottom: solid 1px #eee;
+    border-bottom: solid 1px #d6d6d6;
 }
 
 .content {
     margin-top: 5%;
+}
+
+.product-name {
+    margin-bottom: 5px;
+    font-weight: bold;
 }
