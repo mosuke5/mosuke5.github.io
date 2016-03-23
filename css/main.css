@@ -26,3 +26,16 @@ a:hover {
     margin-bottom: 5px;
     font-weight: bold;
 }
+
+.social-icon {
+    display: inline-block;
+    text-align: center;
+}
+
+.social-icon img {
+    width: 48px;
+}
+
+.social-icon figure {
+    margin: 0 20px;
+}
