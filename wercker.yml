@@ -1,0 +1,11 @@
+box: debian
+deploy:
+  steps:
+    - script:
+      name: delete cloudflare cache
+      code: |
+        sh ./scripts/delete_top_page_cache.sh ${CF_ZONE_ID} ${CF_EMAIL} ${CF_KEY}
+    - slack-notifier:
+      channel: $SLACK_CHANNEL
+      url: $SLACK_URL
+      username: wercker_bot
