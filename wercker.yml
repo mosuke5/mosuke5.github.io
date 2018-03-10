@@ -1,5 +1,5 @@
 box: debian
-deploy:
+build:
   steps:
     - script:
       name: delete cloudflare cache
