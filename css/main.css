@@ -39,3 +39,8 @@ a:hover {
 .social-icon figure {
     margin: 0 20px;
 }
+
+footer {
+    margin: 20px 0;
+    text-align: center;
+}
