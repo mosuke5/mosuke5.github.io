@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: mosuke.tech
+Token: 21317680fa61ad2f7298e34bb7be98651d561dfa08b12aa091271dfb183efc5a
